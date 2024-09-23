@@ -172,13 +172,13 @@ while(row <= n)
 //2 3
 //3 4 5
 //4 5 6 7
-
+/*
 int n = Convert.ToInt32(Console.ReadLine());
-int row = 1, count = 1;
+int row = 1; 
 while(row <= n)
 {
-    int column = 1;
-    while(column <= row)
+    int column = 1, count = row;
+    while (column <= row)
     {
         Console.Write(count + " ");
         count++;
@@ -187,5 +187,196 @@ while(row <= n)
     Console.WriteLine();
     row++;
 }
+Console.ReadLine();
+*/ //Code by @Vishnu
 
- //Code by @Vishnu
+//-------------------------1
+//1
+//2 1
+//3 2 1
+//4 3 2 1
+/*
+int n = Convert.ToInt32(Console.ReadLine());
+int row = 1;
+while(row <= n)
+{
+    int column = 1;
+    while(column <= row)
+    {
+        Console.Write(row - column + 1 + " ");
+        column++;
+    }
+    Console.WriteLine();
+    row++;
+}
+*///Code by @Vishnu
+
+//-------------------------A
+//A A A
+//B B B
+//C C C
+/*
+int n = Convert.ToInt32(Console.ReadLine());
+int row = 1;
+while(row <= n)
+{
+    int column = 1;
+    while(column <= n)
+    {
+        char ch = (char)('A' + row - 1);
+        Console.Write(ch + " ");
+        column++;
+    }
+    row++;
+    Console.WriteLine();
+}
+ *///Code by @Vishnu
+
+//-------------------------A B C
+//A B C
+//A B C
+//A B C
+/*
+int n = Convert.ToInt32(Console.ReadLine());
+int row = 1;
+while (row <= n)
+{
+    int column = 1;
+    
+    while(column <= n)
+    {
+        char ch = (char)('A' + column - 1);
+        Console.Write(ch + " ");
+        column++;
+    }
+    Console.WriteLine();
+    row++;
+}
+*/ //Code by @Vishnu
+
+//-------------------------A B C
+//A B C
+//D E F
+//G H I
+/*
+int n = Convert.ToInt32(Console.ReadLine());
+int row = 1; char ch = 'A';
+while (row <= n){
+    int column = 1;
+    
+    while (column <= n)
+    {
+        Console.Write(ch + " ");
+        column++;
+        ch++;
+    }
+    Console.WriteLine();
+    row++;
+}
+*/ //Code by @Vishnu
+
+//-------------------------A B C
+//A B C
+//B C D
+//C D E
+/*
+int n = Convert.ToInt32(Console.ReadLine());
+int row = 1;
+while (row <= n)
+{
+    int column = 1;
+   
+    while (column <= n)
+    {
+        char ch = (char)('A' + row + column - 2);
+        Console.Write(ch + " ");
+       column++;
+    }
+    Console.WriteLine();
+    row++;
+}
+*/ //Code by @Vishnu
+
+//-------------------------A
+//A
+//B B
+//C C C
+/*
+int n = Convert.ToInt32(Console.ReadLine());
+int row = 1;
+char ch = 'A';
+while (row <= n)
+{
+    int column = 1;
+    while (column <= row)
+    {
+        Console.Write(ch + " ");
+        column++;
+    }
+    Console.WriteLine();
+    row++; ch++;
+}
+*/ //Code by @Vishnu
+
+//-------------------------A
+//A
+//B C
+//D E F
+//G H I J
+/*
+int n = Convert.ToInt32(Console.ReadLine());
+int row = 1;
+char ch = 'A';
+while(row <= n)
+{
+    int column = 1;
+    while(column <= row)
+    {
+        Console.Write(ch + " ");
+        ch++;
+        column++;
+    }
+    Console.WriteLine();
+    row++;
+}
+*/ //Code by @Vishnu
+
+//-------------------------A
+//A
+//B C
+//C D E
+//D E F G
+/*
+int n = Convert.ToInt32(Console.ReadLine());
+int row = 1;
+while(row <= n)
+{
+    int column = 1;
+    
+    while(column <= row)
+    {
+        char ch = (char)('A' + n - row + column - 1);
+        Console.Write(ch +" ");
+        column++;
+    }
+    Console.WriteLine();
+    row++;
+}
+*/ //Code by @Vishnu
+
+//----------------------- _ _ _ *
+// _ _ _ *
+// _ _ * *
+// _ * * *
+// * * * *
+
+int n = Convert.ToInt32(Console.ReadLine());
+int row = 1;
+while(row <= n)
+{
+    int column = 1;
+    while(column <= n)
+    {
+
+    }
+}
